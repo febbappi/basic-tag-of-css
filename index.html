@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic tag of CSS</title>
+
+<style>
+    .box{
+        background-color: blue;
+        height: 90px;
+        width: 49.5%;
+        margin: 2px;
+        float: left;
+    }
+    .box1{
+        width: 99%;
+        height: 150px;
+        background-color: blue;
+        float: left;
+    }
+    .box1:hover{
+        background-color: brown;
+    }
+    .overflow{
+        background: #4CAF50;
+        height: 50px;
+        width: 30%;
+        padding: 15px;
+        border: 1px solid #ccc;
+        float: left;
+        overflow:scroll;
+    }
+    .box2{
+        background-color: cyan;
+        height: 900px;
+        width: 200px;
+        float: right;
+        margin: 2px;
+    }
+    .box3{
+        position: fixed;
+        height: 100px;
+        margin-top: 350px;
+        margin-left: 333px;
+    }
+</style>
+
+</head>
+<body>
+<section>
+    <div class="box">
+
+    </div>
+
+    <div class="box">
+
+    </div>
+
+    <div class="box1">
+        
+    </div>
+</section>
+<section>
+    <div class="overflow">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+    </div>
+</section>
+<!--Position-->
+<div>
+    <div class="box2">
+
+    </div>
+    <div class="box2 box3">
+        <p>Fixed</p>
+    </div>
+    <div class="box2">
+
+    </div>
+</div>
+</body>
+</html>
